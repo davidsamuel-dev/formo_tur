@@ -5,9 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Ponto turistico</title>
+    <link rel="stylesheet" href="style.css">
+
+ <style>
+    body{
+        width: 960px;
+    }
+@media screen and (max-width: 400px){
+        .container{
+            position: absolute;
+        }
+        #imagem{
+            position: relative;
+        }
+        #texto{
+            position: relative;
+            font-size: 24px;
+            left: 150px;
+            top: 15%;
+        }
+}
+.container {
+    position: relative;
+    width: 75%;
+
+  }
+  
+  #image {
+    position: absolute;
+    background: 100%;
+  }
+  
+  #texto {
+    position: relative;
+    font-size: 32px;
+    left: 250px;
+    top: 100%;
+    text-align: center;
+    margin-top: 150%;
+  }
+ </style>
 </head>
 <body>
-    <h1>Ponto turistico x</h1>
-    <hr>
+    <div class="container">
+        <img id="image" src="img/Ilha-do-Bananal.jpg">
+        <label id="texto">Ilha do Bananal</label>
+      </div>
 </body>
 </html>
