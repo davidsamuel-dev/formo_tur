@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body *{
+    border: 1px solid;
+
+}
+header{
+    padding: 10px;
+}
+#logo{
+    width: 150px;
+    text-align: center;
+}
+#menu{
+    width: 30px;
+    float: right;
+}
