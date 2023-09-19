@@ -1,19 +1,73 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body *{
-    border: 1px solid;
+    /* border: 1px solid; */
 
 }
 header{
+    max-width: 2300px;
+    height: 35px;
     padding: 10px;
+    text-align: center;
+    box-shadow:  0px 1px 6px 1px #00000041;
+    /* border: 1px solid */
 }
 #logo{
     width: 150px;
     text-align: center;
 }
 #menu{
-    width: 30px;
+    width: 35px;
     float: right;
+}
+.baner{
+    margin: auto;
+    max-width: 500px;
+    height: 200px;
+    background: url('./img/Ilha-do-Bananal.jpg');
+    background-size:cover;
+    background-position: center;
+
+}
+aside{
+    position: absolute;
+    top: -410px;
+    left: 0;
+    display:inline-block;
+    width: 100%;
+    min-height: 300px;
+    transition: 0.5s;
+    box-sizing: border-box;
+    border: 1px solid #2e2d377b;
+    z-index: 3;
+    background-color: #fff;
+
+    
+}
+.header_menu{
+    background-color: #2e2d37;
+    width: 100%;
+    height: 100px;
+}
+.main_menu{
+    padding: 10px;
+    background-color: #fff;
+}
+.main_menu h2{
+    text-align: center;
+
+
+}
+.main_menu ul li{
+    margin: 10px;
+    cursor: pointer;
+    list-style: none;
+}
+.voltar_menu{
+    text-align: right;
+    color: #fff;
+    padding: 10px;
 }
