@@ -24,12 +24,15 @@ header{
     float: right;
 }
 .baner{
+    position: relative;
     margin: auto;
     max-width: 500px;
     height: 200px;
     background: url('./img/Ilha-do-Bananal.jpg');
+    /* background: url('./video/video_formoso.mp4'); */
     background-size:cover;
     background-position: center;
+    z-index: -2;
 
 }
 aside{
@@ -70,5 +73,10 @@ aside{
     text-align: right;
     color: #fff;
     padding: 10px;
-    background: url('');
+    
 }
+/* video{
+    width: 300px;
+    position: absolute;
+    top: 0;
+} */
