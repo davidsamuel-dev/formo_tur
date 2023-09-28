@@ -5,51 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Ponto turistico</title>
-    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 
  <style>
     body{
         width: 960px;
     }
-@media screen and (max-width: 400px){
-        .container{
-            position: absolute;
-        }
-        #imagem{
-            position: relative;
-        }
-        #texto{
-            position: relative;
-            font-size: 24px;
-            left: 150px;
-            top: 15%;
-        }
-}
-.container {
-    position: relative;
-    width: 75%;
 
-  }
-  
-  #image {
-    position: absolute;
-    background: 100%;
-  }
-  
-  #texto {
-    position: relative;
-    font-size: 32px;
-    left: 250px;
-    top: 100%;
-    text-align: center;
-    margin-top: 150%;
-  }
+
+
+    .content .title{
+        font-size: 38px;
+        margin-bottom: 22px;
+    }
+
+    .title{
+        font-family:  'GT Eesti Pro Display',serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    h2{
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    .content .descricao{
+        color: var(--text-color);
+        font-size: 18px;
+    }
+    .descricao p{
+        line-height: 1.5;
+    }
+    p{
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px
+    }
+   
+
+ 
+
  </style>
 </head>
 <body>
-    <div class="container">
-        <img id="image" src="img/Ilha-do-Bananal.jpg">
-        <label id="texto">Ilha do Bananal</label>
-      </div>
+
+    <reader>
+              <img src="img/Ilha-do-Bananal.jpg" alt="">  
+    </reader>
+
+
+    <main>
+        
+    <div class="content">
+        <h2 class="title"> Descrição</h2>
+        <div class="descricao">
+            <p>Conheça toda magia do tango nessa apresentação em estilo Hollywoodiano, onde vários bailarinos dançam de uma forma emocionante, enquanto contam a história do tango. A casa está situada em Puerto Madero, proporcionando uma vista única do bairro à noite.</p>
+            <p>
+                <strong>Descrição</strong>
+            </p>
+            <p>
+                &#128073;Experimente toda história e cultura que representa uma noite de Tango em Buenos Aires
+            </p>
+            <p>&#128073;Maravilha-se com a vista panorâmica de Porto Madero à noite</p>
+            <p>&#128073;Desfrute de uma janta deliciosa com menu de 3 etapas e bebidas inclusas</p>
+
+        <div class="overview js-section content block" id="dates">
+           <h2 class="title">Datas e horário</h2>
+           <div class="descricao">
+            <p>&nbsp;Sexta e Sábado</p>
+           </div>
+            
+        </div>
+        </div>
+    </div>
+    </main>
+    
 </body>
 </html>
