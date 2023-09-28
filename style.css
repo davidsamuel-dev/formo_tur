@@ -80,3 +80,23 @@ aside{
     position: absolute;
     top: 0;
 } */
+main{
+    max-width: 2300px;
+    height: auto;
+    background-color: rgb(237, 237, 237);
+    margin: 30px auto;
+}
+main *{
+    border: 1px solid;
+}
+.categoria{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 15px;
+}
+.section_content{
+    max-width: 2300px;
+    height: 400px;
+    
+}
