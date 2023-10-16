@@ -26,7 +26,6 @@ function favoritaCategoria() {
 }
 
 function voltarPraIndex() {
-  localStorage.setItem('titulo', JSON.stringify('titulo da pagina'))
   window.location.href = GOBACK_PATH
 }
 
