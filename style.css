@@ -1,16 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.baner{
-    max-width: 2200px;
-    height: 700px;
-    background-image: url('./imagens/484.jpg');
+.baner {
+    width: 100%;
+    height: 160px;
+    background-image: url('./img/pexels-asad-photo-maldives-1450340.jpg');
     margin: auto;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid #000;
-    background-position: center;
+    /* background-position: center; */
+    z-index: -100;
+    box-sizing: border-box;
 }
+
+header {
+    width: 100%;
+    background-color: #009092;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 20px 10px #00000050;
+    z-index: 200;
+    margin: auto;
+}
+
+.content>h2 {
+    color: #fff;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+    max-width: 1000px;
+    margin: auto;
+    height: auto;
+
+}
+
+header>.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content>input {
+    width: 100px;
+    border-radius: 50px;
+    border: transparent;
+    height: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 0.7em;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-shadow: 0 0 5px #000000a3;
+}
+
+.baner>.content {
+    padding: 20px;
+}
+
+main>.content {
+    padding: 10px;
+}
+
+/* main>.content *{
+    border: 1px solid #000;
+    margin: 5px;
+    padding: 5px;
+} */
+.categorias {
+    margin: 20px 0;
+    justify-content: space-between;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 5%;
+    overflow: auto;
+}
+
+.categoria {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    /* border: 1px solid;; */
+    border-radius: 10px;
+}
+
+.categoria_img {
+    min-width: 120px;
+    height: 100px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 1px 1px 10px 1px #0000003f;
+}
+
+#lazer_img {
+    background-image: url('./img/pexels-thorsten-technoman-338504.jpg');
+}
+
+#hotelaria_img {
+    background-image: url('./img/pexels-jean-van-der-meulen-1454806.jpg');
+}
+
+#gastronomia_img {
+    background-image: url('./img/pexels-pixabay-533325.jpg');
+}
+
+/* .categoria>h3{
+    position: absolute;
+    bottom: -25px;
+}
+} */
+.categoria>p {
+    color: #0000007a;
+}
+
+.content>h3 {
+    font-size: 1.6em;
+}
+
+.categoria>h3 {
+    margin: 10px 0;
+}
+
+.mapa {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.mapa>h3 {
+    margin: 20px 0;
+}
+
+/* iframe{
+    margin: auto;
+    width: calc(100% - 10%);
+} */
