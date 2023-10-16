@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        .slide{
+            display: none;
+            max-width: 100%;
+        }
+        .logo img {
+        margin: 23px 20px 20px 10px!important;
+        width: 50px!important;
+        }
+        img {
+        vertical-align: middle;
+        border-style: none;
+        }
+        img {
+        max-width: 100%;
+        height: auto;
+        }
+        .titulo_section{
+        font-size: 22px;
+        font-weight: normal !important;
+        }
+        
+    
+    </style>
+
+   
+</head>
+<body>
+    <reader>
+        </nav>
+        <div class="logo">
+            <img src="./imagens/icones/logo.png" alt="">
+        </div>
+        <div class="content"> 
+            <img  class="slides" src="./img/Ilha-do-Bananal.jpg">
+            <img  class="slides" src="./imagens/484.jpg">
+            <img  class="slides" src="./img/Ilha-do-Bananal.jpg">
+
+        </div>
+
+    </reader>
+
+
+    <main>
+       <h1> Ilha do Bananal</h1>
+       <p>A Ilha do Bananal, localizada no estado do Tocantins, é famosa por ser a maior ilha fluvial do mundo, com uma área de aproximadamente 25.000 km². Ilha fluvial é toda e qualquer porção de terras cercada de águas de rios por todos os lados. No caso, os rios são o Araguaia e o Javaés.
+
+        Ela situa-se na divisão do Tocantins com os estados de Goiás e Mato Grosso, integrando os municípios de Pium, Caseara, Lagoa da Confusão, Formoso do Araguaia e Marianópolis do Tocantins. Localiza-se no relevo da Planície do Cantão e possui uma altitude</p>
+        
+
+        <h2 class="titulo_section">O que fazer </h2>
+
+    </main>
+
+ 
+    <footer>
+
+
+    </footer>
+
+
+    <script>
+     var slides = 0;
+      carousel();
+
+     function carousel() {
+      var i;
+    var x = document.getElementsByClassName("slides");
+    for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+    }
+     slides++;
+    if (slides > x.length) {slides = 1}    
+    x[slides-1].style.display = "block";  
+   setTimeout(carousel, 2000); 
+ }
+    </script>
+</body>
+</html>
