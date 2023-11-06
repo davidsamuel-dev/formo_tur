@@ -97,7 +97,10 @@ main {
   background-size: cover;
   box-shadow: 1px 1px 10px 1px #0000003f;
 }
-
+a{
+  text-decoration: none;
+  color: #000;
+}
 .overview {
   width: 100%;
   /* background-color: red; */
