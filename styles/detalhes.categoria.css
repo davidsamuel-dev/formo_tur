@@ -12,6 +12,8 @@ main {
 
 .img {
   background: url('../img/Ilha-do-Bananal.jpg') #000;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 300px;
   width: 100%;
   display: flex;
