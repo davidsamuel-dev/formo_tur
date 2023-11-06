@@ -135,7 +135,10 @@ main>.content {
 .categoria>h3 {
     margin: 10px 0;
 }
-
+a{
+    text-decoration: none;
+    color: #000;
+}
 .mapa {
     margin-top: 50px;
     display: flex;
