@@ -15,7 +15,9 @@
     background-size: cover;
     background-position: center;
     z-index: -100;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
 
 header {
     width: 100%;
@@ -86,7 +88,7 @@ main>.content {
     display: flex;
     flex-flow: row nowrap;
     gap: 5%;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .categoria {
@@ -108,15 +110,26 @@ main>.content {
 }
 
 #lazer_img {
-    background-image: url('./img/pexels-thorsten-technoman-338504.jpg');
+    background-image: url('./imagens/categorias/lazer.jpg');
 }
 
 #hotelaria_img {
-    background-image: url('./img/pexels-jean-van-der-meulen-1454806.jpg');
+    background-image: url('./imagens/categorias/hotelaria.jpg');
 }
 
 #gastronomia_img {
     background-image: url('./img/pexels-pixabay-533325.jpg');
+}
+#atracoes_img {
+    background-image: url('./imagens/categorias/atrações.jpg');
+}
+
+#servicos_img {
+    background-image: url('./imagens/categorias/serviços.jpg');
+}
+
+#eventos_img {
+    background-image: url('./imagens/categorias/eventos.jpg');
 }
 
 /* .categoria>h3{
