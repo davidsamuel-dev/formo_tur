@@ -21,7 +21,9 @@
 #baner_lazer{
     background-image: url('./categorias/lazer.html');
 }
-
+#baner_gastronomia{
+    background-image: url('./img/pexels-pixabay-533325.jpg');
+}
 header {
     width: 100%;
     background-color: #009092;
@@ -151,6 +153,7 @@ main>.content {
 .categoria>h3 {
     margin: 10px 0;
 }
+
 a{
     text-decoration: none;
     color: #000;
