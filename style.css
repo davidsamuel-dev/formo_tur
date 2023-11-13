@@ -22,6 +22,9 @@
 #baner_lazer{
     background-image: url('./imagens/categorias/lazer.jpg');
 }
+#banner_hotelaria{
+    background-image: url('./imagens/categorias/hotelaria.jpg');
+}
 
 header {
     width: 100%;
