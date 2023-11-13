@@ -25,6 +25,7 @@
         justify-content: space-between;
         align-items: center;
         }
+
         img {
         vertical-align: middle;
         border-style: none;
@@ -70,7 +71,13 @@
   html {
     zoom: 1.5;
   }
-}
+    .content{
+    width: 100%;
+    height: 100%;
+    
+  }
+  }
+
 
 @media (min-width: 3860px) {
   html {
@@ -82,6 +89,35 @@
   }
 }
 
+  footer{
+  background-color: #009092;
+}
+footer .container{
+  margin-top: 10%;
+  display: flex;
+  color: white;
+}
+footer .container ul{
+  width: 25%;
+}
+footer .container h3{
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+footer .container ul > p{
+  margin-bottom: 40px;
+}
+footer .container li{
+  margin: 10px 0;
+}
+footer .container a{
+ color: white;
+}
+@media (max-width:450px) {
+  footer .container  {
+    flex-direction: column;
+  }
+}
  
         
     
@@ -91,14 +127,14 @@
 </head>
 <body>
     <reader>
-        <div class="content"> 
-            <img  class="slides" src="./img/Ilha-do-Bananal.jpg" >
-            <img  class="slides" src="./imagens/484.jpg">
-            <img  class="slides" src="./img/Ilha-do-Bananal.jpg">
-             <h1>Ilha do Bananal</h1>
-        </div>
+      <div class="content">
+        <img  class="slides"src="./img/Ilha-do-Bananal.jpg" alt="">
+        <img class="slides"src="./imagens/484.jpg" alt="">
+      </div>
+        </reader>
 
-    </reader>
+  </div>
+
 
 
     <main>
@@ -136,7 +172,35 @@
 
  
     <footer>
-
+        <div class="container">
+            <ul>
+              <h3> Formo Tur</h3>
+              <div class="redes sociais "></div>
+            </ul>
+            <ul>
+              <h3>link</h3>
+              <li><a href="index.html">home</a></li>
+              <li><a href="categoria.html">Categoria</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="#">Mais vendidos</a></li>
+            </ul>
+            <ul>
+              <h3>Suporte</h3>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Como funciona</a></li>
+              <li><a href="#">qualidade </a></li>
+              <li><a href="#">lojas</a></li>
+            </ul>
+            <ul>
+              <h3>Contatos</h3>
+              <li>
+                <p>email: formotur@gmail.com</p>
+              </li>
+              <li>
+                <p>Tocantins</p>
+              </li>
+            </ul>
+          </div>
 
     </footer>
 
