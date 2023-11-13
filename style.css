@@ -29,15 +29,6 @@
 #baner_gastronomia{
     background-image: url('./img/pexels-pixabay-533325.jpg');
 }
-#baner_atracoes{
-    background-image: url('./imagens/categorias/atrações.jpg');
-}
-#baner_eventos{
-    background-image: url('./imagens/categorias/eventos.jpg');
-}
-#baner_servicos{
-    background-image: url('./imagens/categorias/serviços.jpg');
-}
 
 header {
     width: 100%;
