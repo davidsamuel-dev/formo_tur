@@ -18,12 +18,14 @@
     box-sizing: border-box;
     margin-bottom: 50px;
 }
+
 #baner_lazer{
-    background-image: url('./categorias/lazer.html');
+    background-image: url('./imagens/categorias/lazer.jpg');
 }
-#baner_gastronomia{
-    background-image: url('./img/pexels-pixabay-533325.jpg');
+#banner_hotelaria{
+    background-image: url('./imagens/categorias/hotelaria.jpg');
 }
+
 header {
     width: 100%;
     background-color: #009092;
