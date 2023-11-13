@@ -27,7 +27,6 @@
     background-image: url('./imagens/categorias/hotelaria.jpg');
 }
 
-
 header {
     width: 100%;
     background-color: #009092;
@@ -157,6 +156,7 @@ main>.content {
 .categoria>h3 {
     margin: 10px 0;
 }
+
 a{
     text-decoration: none;
     color: #000;
