@@ -108,7 +108,7 @@ main>.content {
     display: flex;
     flex-flow: row nowrap;
     gap: 5%;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .categoria {
