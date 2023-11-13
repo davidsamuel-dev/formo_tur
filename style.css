@@ -18,8 +18,9 @@
     box-sizing: border-box;
     margin-bottom: 50px;
 }
+
 #baner_lazer{
-    background-image: url('./categorias/lazer.html');
+    background-image: url('./imagens/categorias/lazer.jpg');
 }
 #banner_hotelaria{
     background-image: url('./imagens/categorias/hotelaria.jpg');
