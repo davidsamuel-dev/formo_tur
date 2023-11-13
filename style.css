@@ -25,6 +25,9 @@
 #banner_hotelaria{
     background-image: url('./imagens/categorias/hotelaria.jpg');
 }
+#banner_gastronomia{
+    background-image: url('./img/pexels-pixabay-533325.jpg');
+}
 
 header {
     width: 100%;
