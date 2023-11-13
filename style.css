@@ -18,6 +18,9 @@
     box-sizing: border-box;
     margin-bottom: 50px;
 }
+#baner_lazer{
+    background-image: url('./categorias/lazer.html');
+}
 
 header {
     width: 100%;
