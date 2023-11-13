@@ -23,11 +23,20 @@
 #baner_lazer{
     background-image: url('./imagens/categorias/lazer.jpg');
 }
-#banner_hotelaria{
+#baner_hotelaria{
     background-image: url('./imagens/categorias/hotelaria.jpg');
 }
-#banner_gastronomia{
+#baner_gastronomia{
     background-image: url('./img/pexels-pixabay-533325.jpg');
+}
+#baner_atracoes{
+    background-image: url('./imagens/categorias/atrações.jpg');
+}
+#baner_eventos{
+    background-image: url('./imagens/categorias/eventos.jpg');
+}
+#baner_servicos{
+    background-image: url('./imagens/categorias/serviços.jpg');
 }
 
 header {
@@ -121,7 +130,7 @@ main>.content {
 }
 
 #lazer_img {
-    background-image: url('./imagens/categorias/lazer.jpg');
+    background-image: url('./img/lazer.jpg');
 }
 
 #hotelaria_img {
