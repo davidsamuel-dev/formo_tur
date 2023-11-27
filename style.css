@@ -8,8 +8,8 @@
 
 .baner {
     width: 100%;
-    height: 160px;
-    background-image: url('./img/pexels-asad-photo-maldives-1450340.jpg');
+    height: 190px;
+    background-image: url('./imagens/arquivos/paisagem.jpg');
     margin: auto;
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,7 +50,7 @@ header {
     margin: auto;
 }
 
-.content>h2 {
+.content>a>h2 {
     color: #fff;
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
@@ -108,7 +108,7 @@ main>.content {
     display: flex;
     flex-flow: row nowrap;
     gap: 5%;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .categoria {
