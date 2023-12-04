@@ -113,7 +113,7 @@ main>.content {
 
 .categoria {
     position: relative;
-    width: 330px;
+    width: 270px;
     height: auto;
     padding: 10px;
     /* border: 1px solid;; */
@@ -163,6 +163,7 @@ main>.content {
 
 .content>h3 {
     font-size: 1.6em;
+    color: #009092;
 }
 
 .categoria>h3 {
