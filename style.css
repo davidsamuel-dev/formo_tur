@@ -21,22 +21,22 @@
 }
 
 #baner_lazer{
-    background-image: url('./imagens/categorias/lazer.jpg');
+    background-image: url('./imagens/categorias/categorias_escuras/lazer.jpg');
 }
 #baner_hotelaria{
-    background-image: url('./imagens/categorias/hotelaria.jpg');
+    background-image: url('./imagens/categorias/categorias_escuras/hotelaria.jpg');
 }
 #baner_gastronomia{
-    background-image: url('./imagens/categorias/gastronomia.jpg');
+    background-image: url('./imagens/categorias/categorias_escuras/gastronomia.jpg');
 }
 #baner_atracoes{
-    background-image: url('./imagens/categorias/atrações.jpg');
+    background-image: url('./imagens/categorias/categorias_escuras/atrações.jpg');
 }
 #baner_eventos{
-    background-image: url('./imagens/categorias/eventos.jpg');
+    background-image: url('./imagens/categorias/categorias_escuras/eventos.jpg');
 }
 #baner_servicos{
-    background-image: url('./imagens/categorias/serviços.jpg');
+    background-image: url('./imagens/categorias/categorias_escuras/serviços.jpg');
 }
 
 header {
@@ -97,11 +97,7 @@ main>.content {
     padding: 10px;
 }
 
-/* main>.content *{
-    border: 1px solid #000;
-    margin: 5px;
-    padding: 5px;
-} */
+
 .categorias {
     margin: 20px 0;
     justify-content: space-between;
@@ -215,7 +211,7 @@ footer{
     }
     h1{
         font-size: 2.2em;
-        margin-top: 50px;
+        padding-top: 50px;
     }
     .content>input {
         width: 270px;
