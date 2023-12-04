@@ -113,7 +113,7 @@ main>.content {
 
 .categoria {
     position: relative;
-    max-width: 330px;
+    width: 330px;
     height: auto;
     padding: 10px;
     /* border: 1px solid;; */
@@ -227,5 +227,12 @@ footer{
     body{
         font-size: 1.3em;
     }
+    
+}
+/* imagens por categoria */
+
+
+/* gastronomia */
+#ponto_picanha{
     
 }
