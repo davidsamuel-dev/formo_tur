@@ -78,6 +78,10 @@ header>.content {
     box-sizing: border-box;
     font-size: 0.7em;
 }
+#ponto_description{
+    width: 1000px;
+    margin: auto
+}
 
 h1 {
     color: #fff;
@@ -109,7 +113,7 @@ main>.content {
 
 .categoria {
     position: relative;
-    /* width: 100%; */
+    max-width: 330px;
     height: auto;
     padding: 10px;
     /* border: 1px solid;; */
