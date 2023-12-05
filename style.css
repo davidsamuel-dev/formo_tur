@@ -151,7 +151,6 @@ footer{
 footer .containerf {
     max-width: 1000px;
     margin: auto;
-    margin-top: 10%;
     display: flex;
     color: rgb(255, 255, 255);
     padding: 10px;
@@ -194,6 +193,18 @@ footer .containerf {
     font-size: 1.6em;
     color: #009092;
 }
+.contatos_ponto{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+
+}
+.contatos_ponto>a>img{
+    width: 50px;
+}
 
 .categoria>h3 {
     margin: 10px 0;
@@ -235,7 +246,7 @@ a {
     margin-top: 5px;
 }
 iframe{
-    margin-bottom: 35px;
+    margin-bottom: 100px;
 }
 footer {
     background-color: #009092;
