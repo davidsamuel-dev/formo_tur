@@ -16,26 +16,31 @@
     background-position: center;
     z-index: -100;
     box-sizing: border-box;
-    
+
     margin-bottom: 50px;
 }
 
-#baner_lazer{
+#baner_lazer {
     background-image: url('./imagens/categorias/categorias_escuras/lazer.jpg');
 }
-#baner_hotelaria{
+
+#baner_hotelaria {
     background-image: url('./imagens/categorias/categorias_escuras/hotelaria.jpg');
 }
-#baner_gastronomia{
+
+#baner_gastronomia {
     background-image: url('./imagens/categorias/categorias_escuras/gastronomia.jpg');
 }
-#baner_atracoes{
+
+#baner_atracoes {
     background-image: url('./imagens/categorias/categorias_escuras/atrações.jpg');
 }
-#baner_eventos{
+
+#baner_eventos {
     background-image: url('./imagens/categorias/categorias_escuras/eventos.jpg');
 }
-#baner_servicos{
+
+#baner_servicos {
     background-image: url('./imagens/categorias/categorias_escuras/serviços.jpg');
 }
 
@@ -54,6 +59,10 @@ header {
     color: #fff;
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: #009092;
 }
 
 .content {
@@ -78,8 +87,11 @@ header>.content {
     box-sizing: border-box;
     font-size: 0.7em;
 }
-#ponto_description{
-    width: 1000px;
+
+#ponto_description {
+    max-width: 1000px;
+    padding: 15px ;
+    box-sizing: border-box;
     margin: auto
 }
 
@@ -91,6 +103,11 @@ h1 {
     text-shadow: 0 0 10px #000000bb;
     z-index: 10;
     opacity: 1;
+}
+h5{
+    margin-top: 10px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .baner>.content {
@@ -128,6 +145,17 @@ main>.content {
     background-size: cover;
     box-shadow: 1px 1px 10px 1px #0000003f;
 }
+footer{
+    box-sizing: border-box;
+}
+footer .containerf {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+  }
 
 #lazer_img {
     background-image: url('./imagens/categorias/lazer.jpg');
@@ -140,6 +168,7 @@ main>.content {
 #gastronomia_img {
     background-image: url('./imagens/categorias/gastronomia.jpg');
 }
+
 #atracoes_img {
     background-image: url('./imagens/categorias/atrações.jpg');
 }
@@ -170,10 +199,11 @@ main>.content {
     margin: 10px 0;
 }
 
-a{
+a {
     text-decoration: none;
     color: #000;
 }
+
 .mapa {
     margin-top: 50px;
     display: flex;
@@ -181,6 +211,10 @@ a{
     flex-direction: column;
     padding: 10px;
 
+}
+.imagens_ponto>img{
+    width: 100%
+    
 }
 
 .mapa>h3 {
@@ -191,46 +225,55 @@ a{
     margin: auto;
     width: calc(100% - 10%);
 } */
-.camada_e{
+.camada_e {
     width: 100%;
     height: 160px;
     background-color: #000;
 }
-footer{
+#p_description_ponto{
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+iframe{
+    margin-bottom: 35px;
+}
+footer {
     background-color: #009092;
     width: 100%;
-    height: 140px;
+    min-height: 200px;
 }
-@media screen and (min-width: 300px){
-    body{
+
+@media screen and (min-width: 300px) {
+    body {
         font-size: 1.1em;
     }
-    
+
 }
-@media screen and (min-width: 500px){
-    body{
+
+@media screen and (min-width: 500px) {
+    body {
         font-size: 1.2em;
     }
-    .baner{
+
+    .baner {
         height: 300px;
     }
-    h1{
+
+    h1 {
         font-size: 2.2em;
         padding-top: 50px;
     }
+
     .content>input {
         width: 270px;
     }
-    
-    
+
+
 }
-@media screen and (min-width: 700px){
-    body{
+
+@media screen and (min-width: 700px) {
+    body {
         font-size: 1.3em;
     }
-    
+
 }
-/* imagens por categoria */
-
-
-/* gastronomia */
