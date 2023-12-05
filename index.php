@@ -1,14 +1,14 @@
 <?php
 $hostname = "localhost";
-$bancodedados = "site1";
-$usuario = "root";
-$senha = "";
+$bancodedados = "formo_tur";
+$username = "root";
+$password = "";
 
-$mysqli = new $mysqli($hostname, $username, $password, $bancodedados);
-if ($mysqli->connect_errno) {
-    echo "Falha ao conectar: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+$conexao = new mysqli($hostname, $username, $password, $bancodedados);
+
+if ($conexao->connect_error) {
+    echo "Falha ao conectar: (" . $conexao->connect_error . ") " . $conexao->connect_error;
 }
+echo "Deu Certo";
+
 ?>
-<body>
-    <h1>teste</h1>
-</body>
